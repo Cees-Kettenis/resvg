@@ -1,0 +1,1 @@
+Rendering evidence for independent Resvg fixes. Before: upstream main 77b12f4951a7b75d759c42e8c9497cff7c839c3c. After: each focused correction. Images are 400x400 pixels from the included 200x200 SVG at 2x scale. Chromium 152.0.7977.82 was used as an independent comparison. No unmerged upstream PR is included.

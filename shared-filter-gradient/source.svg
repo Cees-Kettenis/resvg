@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+            <defs>
+                <linearGradient id="gradient">
+                    <stop stop-color="red"/><stop offset="1" stop-color="blue"/>
+                </linearGradient>
+                <rect id="input" width="100" height="40" fill="url(#gradient)"/>
+                <filter id="f" filterUnits="userSpaceOnUse" x="0" y="0"
+                    width="100" height="40"><feImage href="#input"/></filter>
+            </defs>
+            <rect width="100" height="40" filter="url(#f)"/>
+            <g transform="translate(0 60)">
+                <rect width="100" height="40" filter="url(#f)"/>
+            </g>
+            <use href="#input" y="120"/>
+        </svg>
