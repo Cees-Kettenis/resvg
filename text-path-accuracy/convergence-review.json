@@ -1,0 +1,1015 @@
+{
+  "reference_accuracy": 1e-06,
+  "patch_accuracy": 0.001,
+  "baseline_accuracy": 0.5,
+  "rows": [
+    {
+      "fixture": "tests/structure/transform-origin/on-text-path",
+      "glyph_count": 15,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15725461960888204,
+        "max_glyph_origin_delta": 0.3924451125953819,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.22138055555555555,
+          "max": 223
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00022068102249684813,
+        "max_glyph_origin_delta": 0.0008382726286787154,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0005777777777777778,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/alignment-baseline/middle-on-textPath",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.17264175921652836,
+        "max_glyph_origin_delta": 0.47163198917801125,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.14181388888888888,
+          "max": 175
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0003010093569015002,
+        "max_glyph_origin_delta": 0.0010124228365768395,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00037777777777777777,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/alignment-baseline/two-textPath-with-middle-on-first",
+      "glyph_count": 29,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.17286328106773252,
+        "max_glyph_origin_delta": 0.47163314246562565,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.27436666666666665,
+          "max": 176
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00030341998591057603,
+        "max_glyph_origin_delta": 0.001013866362009764,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0006694444444444444,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/lengthAdjust/text-on-path",
+      "glyph_count": 9,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.1523755735449381,
+        "max_glyph_origin_delta": 0.38703133145133833,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.06336388888888889,
+          "max": 143
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0001854054986998379,
+        "max_glyph_origin_delta": 0.000691444864031839,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0007333333333333333,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/arabic-with-dy",
+      "glyph_count": 5,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.0909017999999989,
+        "max_glyph_origin_delta": 0.25795699999999755,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.02376111111111111,
+          "max": 112
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00017620000000064806,
+        "max_glyph_origin_delta": 0.0006649999999979173,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0007555555555555555,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/closed-path",
+      "glyph_count": 33,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.20071595338032944,
+        "max_glyph_origin_delta": 0.4684275828940828,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.4651638888888889,
+          "max": 223
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002898830315575991,
+        "max_glyph_origin_delta": 0.0009932753897952886,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0008888888888888889,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/complex",
+      "glyph_count": 11,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.09381573604256764,
+        "max_glyph_origin_delta": 0.3747882935058029,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.18408888888888889,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00011989675181048338,
+        "max_glyph_origin_delta": 0.0007112496045644959,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00048333333333333334,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/dy-with-tiny-coordinates",
+      "glyph_count": 29,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.1780790736830133,
+        "max_glyph_origin_delta": 0.5521047677171349,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.27934166666666665,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0003060653136701445,
+        "max_glyph_origin_delta": 0.0011834973595156815,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0005555555555555556,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/link-to-rect",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 9.722222222222222e-05,
+        "max": 1
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.17248328571428573,
+        "max_glyph_origin_delta": 0.4371500000000026,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.152625,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00021442857142821886,
+        "max_glyph_origin_delta": 0.0006500000000073669,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.000175,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/m-A-path",
+      "glyph_count": 15,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15725610153130107,
+        "max_glyph_origin_delta": 0.3924343442106067,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.22273888888888888,
+          "max": 208
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002211898480357454,
+        "max_glyph_origin_delta": 0.0008431660571882546,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00045555555555555556,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/m-L-Z-path",
+      "glyph_count": 19,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 1.9444444444444445e-05,
+        "max": 1
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15691931578947269,
+        "max_glyph_origin_delta": 0.4276999999999873,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.2440138888888889,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00019073684210387624,
+        "max_glyph_origin_delta": 0.0007599999999996498,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.000175,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/method=stretch",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13242777777777778,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002861111111111111,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/mixed-children-1",
+      "glyph_count": 24,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15674614226986833,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.20708055555555555,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00027056546644348796,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002861111111111111,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/mixed-children-2",
+      "glyph_count": 21,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.09557255716126578,
+        "max_glyph_origin_delta": 0.3340762023565824,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13783333333333334,
+          "max": 143
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00010540983543605143,
+        "max_glyph_origin_delta": 0.000489776479624293,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/nested",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461327810693266,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13239722222222222,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00029284843850269044,
+        "max_glyph_origin_delta": 0.0008990951006412729,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002888888888888889,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/path-with-ClosePath",
+      "glyph_count": 26,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.1504187135694256,
+        "max_glyph_origin_delta": 0.494077011810919,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.3392027777777778,
+          "max": 208
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00018559049304421116,
+        "max_glyph_origin_delta": 0.0009235799911269309,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0013805555555555557,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/path-with-subpaths",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.19493165739391025,
+        "max_glyph_origin_delta": 0.4883354000080241,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.21024444444444446,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000300935507553991,
+        "max_glyph_origin_delta": 0.00100700049651983,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0006194444444444445,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/path-with-subpaths-and-startOffset",
+      "glyph_count": 4,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.14517195005295597,
+        "max_glyph_origin_delta": 0.3591830000501125,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.03450555555555555,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00017763719634067955,
+        "max_glyph_origin_delta": 0.0005280151512920382,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0001,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/side=right",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13242777777777778,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002861111111111111,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/simple-case",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13242777777777778,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002861111111111111,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/spacing=auto",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13242777777777778,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002861111111111111,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/startOffset=10percent",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.11528027939677452,
+        "max_glyph_origin_delta": 0.29046465663826826,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.09659444444444444,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00019550896614611537,
+        "max_glyph_origin_delta": 0.0009903090426771303,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002666666666666667,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/startOffset=30",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.11641687716961782,
+        "max_glyph_origin_delta": 0.3382036623530308,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.11339444444444445,
+          "max": 143
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00013327891914863388,
+        "max_glyph_origin_delta": 0.0006198459486081841,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00028055555555555554,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/startOffset=5mm",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.14949513726178595,
+        "max_glyph_origin_delta": 0.38899657121367665,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.12519444444444444,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0001734948916189612,
+        "max_glyph_origin_delta": 0.0005412023651055118,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00013333333333333334,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/startOffset=-100",
+      "glyph_count": 6,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.17574507383958038,
+        "max_glyph_origin_delta": 0.34797566136153474,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.04131111111111111,
+          "max": 143
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00022632838686160667,
+        "max_glyph_origin_delta": 0.0006573431371731743,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 6.666666666666667e-05,
+          "max": 8
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/tspan-with-absolute-position",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.19542371149326984,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.11890555555555556,
+          "max": 159
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002849509010088841,
+        "max_glyph_origin_delta": 0.0008812065592095965,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00021666666666666666,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/tspan-with-relative-position",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.18318476626006336,
+        "max_glyph_origin_delta": 0.4732859377796868,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.20928611111111112,
+          "max": 223
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002775527475720441,
+        "max_glyph_origin_delta": 0.0009561464323009524,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00015555555555555556,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/two-paths",
+      "glyph_count": 29,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16898704643510845,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.26475,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002995188487005147,
+        "max_glyph_origin_delta": 0.0008990951006412729,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0005777777777777778,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/very-long-text",
+      "glyph_count": 13,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.3057947940952742,
+        "max_glyph_origin_delta": 0.4395393129357078,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.24637222222222221,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0004797710271019289,
+        "max_glyph_origin_delta": 0.0008812065592095965,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00015555555555555556,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-baseline-shift",
+      "glyph_count": 26,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15041934288148576,
+        "max_glyph_origin_delta": 0.4940814493876528,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.3312027777777778,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00018688311239310998,
+        "max_glyph_origin_delta": 0.0009235799911269309,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0011972222222222221,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-baseline-shift-and-rotate",
+      "glyph_count": 26,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15041934288148576,
+        "max_glyph_origin_delta": 0.4940814493876528,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.3245111111111111,
+          "max": 208
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00018688311239310998,
+        "max_glyph_origin_delta": 0.0009235799911269309,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00046666666666666666,
+          "max": 32
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-big-letter-spacing",
+      "glyph_count": 4,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 1.9444444444444445e-05,
+        "max": 1
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.15633147216992735,
+        "max_glyph_origin_delta": 0.32004356633588604,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.045425,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002065139488215351,
+        "max_glyph_origin_delta": 0.0004570557952824875,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00017777777777777779,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-coordinates-on-text",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.1164805759964124,
+        "max_glyph_origin_delta": 0.2994430131093243,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.09690277777777778,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0001268182190875962,
+        "max_glyph_origin_delta": 0.00038900514133556743,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-coordinates-on-textPath",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13303055555555557,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002861111111111111,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-filter",
+      "glyph_count": 29,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16898704643510845,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.26475,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.0002995188487005147,
+        "max_glyph_origin_delta": 0.0008990951006412729,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0005777777777777778,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-letter-spacing",
+      "glyph_count": 9,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.1409334052204794,
+        "max_glyph_origin_delta": 0.4061874638944446,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.10388055555555556,
+          "max": 207
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00017306942668012242,
+        "max_glyph_origin_delta": 0.000873856395515133,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00022222222222222223,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-rotate",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.10711388888888888,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00017777777777777779,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-text-anchor",
+      "glyph_count": 7,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.1239572647979719,
+        "max_glyph_origin_delta": 0.28203859013440086,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.032558333333333335,
+          "max": 127
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00013567211844448408,
+        "max_glyph_origin_delta": 0.00040351455983778464,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 4.4444444444444447e-05,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-transform-on-a-referenced-path",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.164613576385683,
+        "max_glyph_origin_delta": 0.41127463877560444,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.13095277777777778,
+          "max": 160
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00029522186493474234,
+        "max_glyph_origin_delta": 0.0008992357866500216,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 8.888888888888889e-05,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-transform-outside-a-referenced-path",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.12970833333333334,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.0002666666666666667,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/with-underline",
+      "glyph_count": 14,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.16461268609813776,
+        "max_glyph_origin_delta": 0.41127164566135493,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.14585555555555554,
+          "max": 192
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.000292712218645923,
+        "max_glyph_origin_delta": 0.0008964128513138973,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00037222222222222225,
+          "max": 16
+        }
+      }
+    },
+    {
+      "fixture": "tests/text/textPath/writing-mode=tb",
+      "glyph_count": 6,
+      "baseline_pixel_delta_from_old_reference": {
+        "mean": 0.0,
+        "max": 0
+      },
+      "before": {
+        "mean_glyph_origin_delta": 0.21379812350281488,
+        "max_glyph_origin_delta": 0.4608456382304184,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.18260277777777778,
+          "max": 176
+        }
+      },
+      "after": {
+        "mean_glyph_origin_delta": 0.00029226216639907117,
+        "max_glyph_origin_delta": 0.0008851417965557782,
+        "pixel_delta_to_tighter_precision": {
+          "mean": 0.00021944444444444444,
+          "max": 16
+        }
+      }
+    }
+  ]
+}
