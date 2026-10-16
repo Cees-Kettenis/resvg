@@ -1,0 +1,29 @@
+{
+  "upstream_base": "978775b5f2d31f35b370e0ac4059038be117101c",
+  "branch": "fix-text-path-accuracy",
+  "head": "3826dce8",
+  "full_tests": {
+    "command": "cargo test --all --release --locked",
+    "passed": 1816,
+    "failed": 0
+  },
+  "build_checks": {
+    "c-api-build": 0,
+    "c-api-no-default": 0,
+    "resvg-no-default": 0,
+    "usvg-no-default": 0
+  },
+  "format": "cargo fmt --all --check: PASS",
+  "copyright": "bash .github/copyright.sh: PASS",
+  "whitespace": "git diff main...HEAD --check: PASS",
+  "new_regression": "Fails without the runtime change; first horizontal glyph origin x=39.742012 instead of 40. Passes after the change for horizontal, vertical and nonuniform collinear cubic paths.",
+  "snapshot_review": "42 cases, 661 glyphs; identities/order unchanged. All cases are closer in glyph origins and mean premultiplied RGBA pixel error to a tighter 0.000001-accuracy control.",
+  "browser_integration": {
+    "fixture": "inline_svg_text_paths.html",
+    "before_changed_ratio": 0.01022420634920635,
+    "after_changed_ratio": 0.006698412698412698,
+    "unchanged_limit": 0.01,
+    "channel_tolerance": 12,
+    "reference": "Identical Chrome reference before/after. Percentages include the original fixture page margin."
+  }
+}
