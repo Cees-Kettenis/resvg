@@ -364,3 +364,11 @@ fn tiny_raster_preserves_stroke_paint_and_destination() {
         }
     }
 }
+
+#[test]
+fn rectangle_edge_coverage() {
+    assert_eq!(
+        render_extra_with_scale("extra/rectangle-edge-coverage", 2.0),
+        0
+    );
+}
