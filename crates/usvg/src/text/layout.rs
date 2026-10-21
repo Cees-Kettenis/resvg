@@ -764,6 +764,36 @@ pub(crate) struct PathNormal {
     pub(crate) angle: f32,
 }
 
+// Let Kurbo's inverse arc-length solver reuse the length already measured for
+// this segment, without caching lengths of the subsegments it creates.
+struct CurveWithLength {
+    curve: kurbo::CubicBez,
+    // The accuracy and length of this entire segment.
+    cached_length: Option<(f64, f64)>,
+}
+
+impl ParamCurve for CurveWithLength {
+    fn eval(&self, t: f64) -> kurbo::Point {
+        self.curve.eval(t)
+    }
+
+    fn subsegment(&self, range: std::ops::Range<f64>) -> Self {
+        Self {
+            curve: self.curve.subsegment(range),
+            cached_length: None,
+        }
+    }
+}
+
+impl ParamCurveArclen for CurveWithLength {
+    fn arclen(&self, accuracy: f64) -> f64 {
+        match self.cached_length {
+            Some((cached_accuracy, length)) if accuracy == cached_accuracy => length,
+            _ => self.curve.arclen(accuracy),
+        }
+    }
+}
+
 fn collect_normals(
     text: &Text,
     clusters: &[GlyphCluster],
@@ -847,17 +877,21 @@ fn collect_normals(
             let base_arclen_accuracy = 0.001;
             // Accuracy depends on a current scale.
             // When we have a tiny path scaled by a large value,
-            // we have to increase out accuracy accordingly.
+            // we have to increase our accuracy accordingly.
             let (sx, sy) = text.abs_transform.get_scale();
             // 1.0 acts as a threshold to prevent division by 0 and/or low accuracy.
             base_arclen_accuracy / (sx * sy).sqrt().max(1.0)
         };
 
         let curve_len = curve.arclen(arclen_accuracy as f64);
+        let measured_curve = CurveWithLength {
+            curve,
+            cached_length: Some((arclen_accuracy as f64, curve_len)),
+        };
 
         for offset in &offsets[normals.len()..] {
             if *offset >= length && *offset <= length + curve_len {
-                let mut offset = curve.inv_arclen(offset - length, arclen_accuracy as f64);
+                let mut offset = measured_curve.inv_arclen(offset - length, arclen_accuracy as f64);
                 // some rounding error may occur, so we give offset a little tolerance
                 debug_assert!((-1.0e-3..=1.0 + 1.0e-3).contains(&offset));
                 offset = offset.clamp(0.0, 1.0);
